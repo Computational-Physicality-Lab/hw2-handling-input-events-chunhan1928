@@ -1,0 +1,216 @@
+/* body */
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+button,
+li {
+    transition: 0.5s;
+}
+
+/* header */
+header {
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: white;
+}
+
+#header-title {
+    display: flex;
+    align-items: center;
+    font-family: "Catamaran";
+}
+
+#header-title img {
+    width: 50%;
+    margin-left: 10vw;
+}
+
+#header-nav {
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    padding: 15px;
+}
+
+#header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header-nav li a {
+    text-decoration: none;
+    color: #c51230;
+}
+
+#header-nav li a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+footer {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 5vh 0;
+    background-color: #c51230;
+    display: flex;
+    align-items: center;
+}
+
+#footer-nav {
+    width: 80%;
+}
+
+#footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer-nav li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+footer #credit {
+    width: 20%;
+}
+
+/* content */
+#content {
+    margin: 0 30px;
+}
+
+/* index.html */
+#home-img {
+    width: 100%;
+}
+
+#home-bulletinBoard {
+    display: flex;
+}
+
+#home-bulletinBoard .announce {
+    border: 3px solid #c51230;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 20px;
+}
+
+#home-bulletinBoard .announce h3 {
+    color: #c51230;
+}
+
+#home-bulletinBoard .announce p {
+    color: gray;
+}
+
+/* products.html content */
+#products-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products-menu .product {
+    margin: 10px;
+    border: 2px solid #c51230;
+    border-radius: 10px;
+}
+
+#products-menu .product img {
+    width: 28vw
+}
+
+#products-menu .product h3 {
+    margin: 10px;
+    color: #c51230;
+}
+
+#products-menu .product p {
+    margin: 10px;
+    color: lightgray;
+}
+
+#products-menu .product button {
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #c51230;
+}
+
+#products-menu .product button:hover {
+    color: black;
+}
+
+/* detail.html content */
+#shirt-data {
+    display: flex;
+}
+
+#shirt-img {
+    width: 20vw;
+}
+
+#shirt-detail {
+    margin: 0 30px;
+}
+
+#shirt-price {
+    color: #c51230;
+}
+
+#shirt-description {
+    color: #c51230;
+}
+
+#shirt-side-nav button {
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #c51230;
+    color: white;
+}
+
+#shirt-side-nav button:hover {
+    color: black;
+}
+
+#shirt-color-nav button {
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px #c51230;
+    border-radius: 10px;
+    color: black;
+}
+
+#shirt-color-nav button:hover {
+    color: white;
+}
+
+/* not implemented*/
+body#not_implemented {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body#not_implemented img {
+    width: 50vw;
+    opacity: 50%;
+}
+
+body#not_implemented p {
+    color: gray;
+}
